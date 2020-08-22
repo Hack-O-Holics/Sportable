@@ -1,0 +1,33 @@
+
+html {
+  background-image: url('https://cdn.discordapp.com/attachments/726553881672155280/746837875177554012/unknown.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  background-color: #2699FB;
+  width: 15%;
+  height: 9%;
+  border-radius: 35px;
+}
+
+#words {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+#login {
+  position: absolute;
+  left: 30%;
+  top: 70%;
+}
+
+#signup {
+  position: absolute;
+  left: 55%;
+  top: 70%;
+}

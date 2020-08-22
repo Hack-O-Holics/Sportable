@@ -119,9 +119,3 @@ def flow_data(video_file, size, nframes=None):
         flow[0, i] = cur_flow
 
     return flow
-
-
-if __name__ == '__main__':
-    path = 'C:/Users/agnik/hackathons/gym-trainer/data/pushups/bad1.mp4'
-    x = rgb_data(path, 1000)
-    print(x.shape)

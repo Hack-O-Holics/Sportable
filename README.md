@@ -2,6 +2,9 @@
 
 NOTE: Check Github Repo for the most up-to-date video.
 
+## Demo
+[![](http://img.youtube.com/vi/h71szkri2CI/0.jpg)]("http://www.youtube.com/watch?v=h71szkri2CI")
+
 ## About Us
 Shreeniket, Agnik, Devin, and Johnny are all rising sophmores living in the United States. Although we have different interests and experience in computer science, we all wanted to create a project that truly helps our communities.
 

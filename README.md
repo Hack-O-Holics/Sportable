@@ -3,7 +3,7 @@
 NOTE: Check Github Repo for the most up-to-date video.
 
 ## About Us
-Shreeniket, Agnik, Devin, and Johnny are all rising sophmores living in the United States. Although we have different interests and knowledge in computer science, we all wanted to create an awesome project that helps our communities.
+Shreeniket, Agnik, Devin, and Johnny are all rising sophmores living in the United States. Although we have different interests and experience in computer science, we all wanted to create a project that truly helps our communities.
 
 ## Inspiration
 Fitness exercises are very beneficial to personal health and physical well being; however, they can also be ineffective and potentially dangerous if performed incorrectly by the athlete. Exercise mistakes are made when the user does not use the proper form, or pose. With gyms closed due to the pandemic, more people have started doing home workouts and physical education classes for school have gone virtual, meaning that coaches have been unable to help their students correct their form. Making an app that can give instant feedback to users when they do an exercise and finding a way to teach proper form more interactively will solve these problems, and change the scene for athletic coaching entirely.

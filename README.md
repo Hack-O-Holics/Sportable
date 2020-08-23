@@ -1,18 +1,16 @@
 # Sportable
 
-NOTE: Check Github Repo for the most up-to-date video.
-
 ## Demo
-[![](http://img.youtube.com/vi/h71szkri2CI/0.jpg)]("http://www.youtube.com/watch?v=h71szkri2CI")
+[![](http://img.youtube.com/vi/8Ifmu_taVXw/0.jpg)](http://www.youtube.com/watch?v=8Ifmu_taVXw "")
 
 ## About Us
-Shreeniket, Agnik, Devin, and Johnny are all rising sophmores living in the United States. Although we have different interests and experience in computer science, we all wanted to create a project that truly helps our communities.
+Shreeniket, Agnik, Devin, and Johnny are all rising sophomores living in the United States. Although we have different interests and experience in computer science, we all wanted to create a project that truly helps our communities.
 
 ## Inspiration
-Fitness exercises are very beneficial to personal health and physical well being; however, they can also be ineffective and potentially dangerous if performed incorrectly by the athlete. Exercise mistakes are made when the user does not use the proper form, or pose. With gyms closed due to the pandemic, more people have started doing home workouts and physical education classes for school have gone virtual, meaning that coaches have been unable to help their students correct their form. Making an app that can give instant feedback to users when they do an exercise and finding a way to teach proper form more interactively will solve these problems, and change the scene for athletic coaching entirely.
+Fitness exercises are very beneficial to personal health and physical well being; however, they can also be ineffective and potentially dangerous if performed incorrectly by the athlete. Exercise mistakes are made when the user does not use the proper form or pose. With gyms closed due to the pandemic, more people have started doing home workouts and physical education classes for school have gone virtual, meaning that coaches have been unable to help their students correct their form. Making an app that can give instant feedback to users when they do an exercise and finding a way to teach proper form more interactively will solve these problems, and change the scene for athletic coaching entirely.
 
 ## What It Does
-Our app, Sportable, allows for students and normal users to submit short clips of themselves, which, using computer vision, detects if the form is incorrect or not, and what they have to change. Look at the `README.md` in the `video-classifier` section of our repo to learn how this works. Our app also has features allowing users to learn how to to do a variety of exercises using AR (augmented reality). Sportable has special functionality for schools, allowing P.E. teachers to organize classrooms and assign workout assignments, which can be submitted by students through the app. A better explanation of what Sportable does can be found in the demo.
+Our app, Sportable, allows for students and normal users to submit short clips of themselves, which, using computer vision, detects if the form is incorrect or not, and what they have to change. Look at the `README.md` in the `video-classifier` section of our repo to learn how this works. Our app also has features allowing users to learn how to to do a variety of exercises using AR (augmented reality). Sportable has special functionality for schools, allowing P.E. teachers to organize classrooms and assign workout assignments, which can be submitted by students through the app. A better explanation of what Sportable does can be found in the demo. We also made it so that the echo AR uses natural language processing to display a 3D model.
 
 ## How We Built It
 In order to build a form classifier, we scraped workout videos from YouTube in order to train to create a dataset, as we couldn't find a public dataset that contained videos of correct and incorrect form. We then trained a neural network, based on an Inflated 3D ConvNet architecture, loosely inspired from (this research paper)["Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset."]. Even though the model had a state-of-the-art architecture, because the dataset was only a few hundred videos long, results were inconclusive and we didn't incorporate the model in our final demo. Again, Look at the `README.md` o the `video-classifier` section of our repo to further learn about the model, and why it didn't work the way we wanted. 

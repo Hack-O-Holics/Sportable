@@ -31,3 +31,44 @@ html {
   left: 55%;
   top: 70%;
 }
+
+#link {
+  text-decoration: none;
+  color: white;
+}
+
+#link:hover {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.signup-form {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+}
+
+.form {
+  font-weight: 800;
+  color: white;
+}
+
+.submit-button {
+  border-radius: 30px;
+  color: white;
+  font-weight: 900;
+  background-color:#2699FB;
+}
+
+.form-box {
+  z-index: 10;
+  border-color: black;
+  border-radius: 10px;
+  position: absolute;
+  left: 45%;
+  top: 55%;
+}
+
+input {
+  border-radius: 20px;
+}

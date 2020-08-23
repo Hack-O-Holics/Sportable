@@ -16,6 +16,7 @@ Our app, Sportable, allows for students and normal users to submit short clips o
 
 ## How We Built It
 In order to build a form classifier, we scraped workout videos from YouTube in order to train to create a dataset, as we couldn't find a public dataset that contained videos of correct and incorrect form. We then trained a neural network, based on an Inflated 3D ConvNet architecture, loosely inspired from (this research paper)["Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset."]. Even though the model had a state-of-the-art architecture, because the dataset was only a few hundred videos long, results were inconclusive and we didn't incorporate the model in our final demo. Again, Look at the `README.md` o the `video-classifier` section of our repo to further learn about the model, and why it didn't work the way we wanted. 
+
 ![Drag Racing](https://lh3.googleusercontent.com/-NWBZS6k57Pk/Xzx0NDxYNmI/AAAAAAAAEys/diFRuSVXPY8vhiyfzVMaMztpbXtUpQKuwCK8BGAsYHg/s512/2020-08-18.png])
 
 In order to send videos and information from the app we implemented a server using with Node.js MongoDB. There are major routes designed to serve both IOS clientside and Web client side. Both clients submit to the same route, but web client side will also use GET request to retrieve html files. For authentication, we store JWT in the user's cookie, and conveniently IOS's alamofire library also allows for cookie storage.

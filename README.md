@@ -26,5 +26,5 @@ We're proud of finishing a complex project in such a short amount of time and ho
 ## What We Learned
 We learned how to make requests between iOS client to an AWS server, as well as video classification with neural networks
 
-## What's Next For Sign Telegence
+## What's Next For Sportable
 Hopefully larger exercise form datasets will be created, so we can retrain our model and make it more efficient, as well as detecting a wider variety of mistakes in common exercises.
